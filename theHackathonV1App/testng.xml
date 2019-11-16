@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Suite" parallel="none"
+	preserve-order="true">
+	 <test name="Test1">
+		<classes>
+			<class name="traditionalTests.CanvasChartTest">
+				<!-- <methods> <include name="loginWithNoUserNameNoPassword" /> <include 
+					name="loginWithUserNameAndNoPassword" /> <include name="loginWithPasswordbutEmptyUsername" 
+					/> </methods> -->
+			</class>
+			
+			<class name="traditionalTests.DataDrivenTests">
+			</class>
+			
+			<class name="traditionalTests.DynamicContentTest">
+			</class>
+			
+			<class name="traditionalTests.LoginPageUIElementTest">
+			</class>
+			
+			<class name="traditionalTests.TableSortTest">
+			</class>
+
+		</classes>
+	</test>
+
+</suite> 

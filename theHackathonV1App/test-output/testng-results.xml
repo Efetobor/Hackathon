@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24053" started-at="2019-11-16T18:08:02Z" finished-at="2019-11-16T18:08:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24053" started-at="2019-11-16T18:08:02Z" finished-at="2019-11-16T18:08:26Z">
+      <class name="traditionalTests.TableSortTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:traditionalTests.TableSortTest@42dafa95]" name="startUp" is-config="true" duration-ms="6686" started-at="2019-11-16T19:08:02Z" finished-at="2019-11-16T19:08:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="validateAmountColumnIsInAscendingOrder()[pri:1, instance:traditionalTests.TableSortTest@42dafa95]" name="validateAmountColumnIsInAscendingOrder" duration-ms="16049" started-at="2019-11-16T19:08:09Z" finished-at="2019-11-16T19:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAmountColumnIsInAscendingOrder -->
+        <test-method status="PASS" signature="shutDown()[pri:0, instance:traditionalTests.TableSortTest@42dafa95]" name="shutDown" is-config="true" duration-ms="1297" started-at="2019-11-16T19:08:25Z" finished-at="2019-11-16T19:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutDown -->
+      </class> <!-- traditionalTests.TableSortTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
