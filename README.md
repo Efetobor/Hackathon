@@ -9,6 +9,8 @@ Pre-requisites:
 
 
 --- Maven installed on the machine to execute tests.
+
+
 --- TestNg installed in eclipse or other editor used.
 
 
