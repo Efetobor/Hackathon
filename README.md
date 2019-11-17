@@ -1,11 +1,16 @@
 # Hackathon
 Applitools Hackathon
-This test and the chrome driver in it is compactible  with  Chrome 78.0 browser.
+
+
+The chrome driver used for this test is compactible with Chrome 78.0 browser.
 
 
 Pre-requisites:
+
+
 --- Maven installed on the machine to execute tests.
 --- TestNg installed in eclipse or other editor used.
+
 
 path to test files: src/test/java/traditionalTests or /visualAITests
 
