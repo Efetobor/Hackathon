@@ -29,13 +29,12 @@ public class TableSortTest {
 		login.enterPasswordInPasswordField("pwd");
 		login.clickOnLoginButton();
 		Base eyes = new Base(driver);
-		
 		eyes.validatePageWithEyes("screenShotB4SortingInAscendingOrder");
-		
+	
 		Dashboard dashboard = new Dashboard(driver);
 		dashboard.clickAmountHeader();
 		
-		eyes.validatePageWithEyes("validateAmountColumnIsInAscendingOrder");
+		eyes.validatePageWithEyes("screnShotAfterSortingInAscendingOrder");
 		System.out.println("AmountColumnIsInAscendingOrder, Successful Test");
 	}
 

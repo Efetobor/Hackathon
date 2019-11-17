@@ -37,7 +37,7 @@ public class CanvasChartTest {
 		Base eyes = new Base(driver);
 		eyes.validatePageWithEyes("screenShotBeforeAddingDataForNextYear");
 		user.clickOnDisplayDataForNextYearLink();
-		eyes.validatePageWithEyes("validateThatTheDataForNextYearAddsToChart");
+		eyes.validatePageWithEyes("screenShotAfterAddingTheDataForNextYear");
 		
 		System.out.println("ThatTheDataForNextYearAddsToChart, Successful Test");
 	}

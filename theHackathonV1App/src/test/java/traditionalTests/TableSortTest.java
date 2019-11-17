@@ -61,7 +61,7 @@ public class TableSortTest {
 		Collections.sort(initialList);
 		System.out.println("Sorted List "+ initialList);
 		assertTrue(initialList.equals(actualAmountList));
-		System.out.println("Amount is in acsending order");
+		System.out.println("Amount is in ascending order");
 	}
 
 	@AfterTest

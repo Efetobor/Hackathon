@@ -32,7 +32,7 @@ public class DynamicContentTest {
 		login.clickOnLoginButton();
 		
 		Base eyes = new Base(driver);
-		eyes.validatePageWithEyes("ValidateDynamic2ndElement");
+		eyes.validatePageWithEyes("validateDynamic2ndElement");
 	}
 
 	@AfterTest
