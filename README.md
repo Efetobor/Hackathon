@@ -25,4 +25,4 @@ There are two (2) ways to execute tests;
 
 	OR
 	
-2) Open the difference classes >> right click inside the class >> select run with testNG
+2) Open the difference classes >> right click inside the class >> select 'Run As' >> select TestNG Test
